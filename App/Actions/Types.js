@@ -1,0 +1,27 @@
+// A list of all actions in the system.
+import { createTypes } from 'reduxsauce';
+
+export default createTypes(`
+  LOGIN_ATTEMPT
+  LOGIN_SUCCESS
+  LOGIN_FAILURE
+
+  LOGOUT
+
+  STARTUP
+
+  TEMPERATURE_REQUEST
+  TEMPERATURE_RECEIVE
+  TEMPERATURE_FAILURE
+
+  UPLOAD_PICTURE
+  UPLOAD_SUCCESS
+  UPLOAD_FAILURE
+  UPLOAD_CLEAR
+
+  LIST_LOAD
+  LIST_FAILURE
+  LIST_REPLACE
+  LIST_APPEND
+  LIST_CLEAR
+`);
